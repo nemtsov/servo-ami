@@ -1,4 +1,4 @@
-# Servo AMI
+# Servo AMI [WIP]
 
 This is an example of the AMI behind all applications deployed using the PaaS.
 Installs and configures the following:
