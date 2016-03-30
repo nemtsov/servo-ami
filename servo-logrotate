@@ -1,0 +1,35 @@
+/var/log/*.log {
+    missingok
+    notifempty
+    compress
+    size 100M
+    rotate 2
+    copytruncate
+}
+
+/var/log/*/*.log {
+    missingok
+    notifempty
+    compress
+    size 100M
+    rotate 2
+    copytruncate
+}
+
+/var/log/*/*/*.log {
+    missingok
+    notifempty
+    compress
+    size 100M
+    rotate 2
+    copytruncate
+}
+
+/var/log/*/*/*.txt {
+    missingok
+    notifempty
+    compress
+    size 100M
+    rotate 2
+    copytruncate
+}
